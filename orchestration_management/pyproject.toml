@@ -1,0 +1,22 @@
+[project]
+name = "orchestration_management"
+version = "0.1.0"
+description = "orchestration_management using crewAI"
+authors = [{ name = "Your Name", email = "you@example.com" }]
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "crewai-tools>=0.36.0",
+    "crewai[tools]>=0.98.0,<1.0.0",
+    "google-generativeai>=0.8.4",
+]
+
+[project.scripts]
+kickoff = "orchestration_management.main:kickoff"
+plot = "orchestration_management.main:plot"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.crewai]
+type = "flow"

@@ -1,0 +1,11 @@
+Order Details:
+Product ID: 6
+Product Name: airbuds
+Quality: medium
+Price: $1500
+
+Customer Information:
+Customer Name: Aisha
+Email: ashi12@gmail.com
+Phone: 03123242343
+Address: karachi

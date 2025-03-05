@@ -1,0 +1,12 @@
+tasks:
+  ShoppingNeeds:
+    description: "Welcome the user to the platform, understand their shopping needs, and extract shopping-relevant details."
+    expected_output: "A friendly greeting message and comprehensive understanding of the user's shopping needs from the {user_query}"
+    
+  provide_product_list:
+    description: "Search the product catalog based on shopping-relevant details and provide a list of available products."
+    expected_output: "A formatted catalog of products from the Catalog based on the shopping-relevant details"
+    
+  add_to_cart:
+    description: "Add user-confirmed products to a shopping cart and save the information in a text file."
+    expected_output: "A text file containing the shopping cart with all selected products and relevant details"
